@@ -3,8 +3,8 @@ title: 南方漫遊
 SEOTitle: 隨想錄
 header-img: img/post-bg-desk.jpg
 email: klovien@gmail.com
-description: "這是一段測試文字簡介"
-keyword: "這是另一段測試的文字簡介"
+description: 這是一段測試用的文字介紹
+keyword: 這是另一段測試用的文字介紹
 url: "https://klovien.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
