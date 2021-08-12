@@ -226,3 +226,8 @@ layout: default
     }
 </style>
 {% endif %}
+
+       {% if site.valine.enable %}
+                  {% include valine_comments.html %}
+       {% endif %}
+       <!-- Valine 评论框 end -->
