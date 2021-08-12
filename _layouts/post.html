@@ -81,6 +81,14 @@ layout: default
                     {% endif %}
                 </ul>
 
+		    
+		    
+	       <!-- Valine 评论框 start -->
+	       {% if site.valine.enable %}
+                      {% include valine_comments.html %}
+               {% endif %}
+	       <!-- Valine 评论框 end -->
+		    
 
                 <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
@@ -227,7 +235,4 @@ layout: default
 </style>
 {% endif %}
 
-       {% if site.valine.enable %}
-                  {% include valine_comments.html %}
-       {% endif %}
-       <!-- Valine 评论框 end -->
+
