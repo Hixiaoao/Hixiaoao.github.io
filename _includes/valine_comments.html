@@ -1,4 +1,3 @@
-<br>
 <h4 align="left">「游客及非Github用户留言」：</h4>    
 <div id="comments"></div>
     <!--Leancloud 操作库:-->
@@ -14,7 +13,9 @@
             placeholder: '{{ site.valine.placeholder }}',
             notify: '{{ site.valine.notify }}',
             verify: '{{ site.valine.verify }}',
-	    recordIP: 'true',
-            enableQQ: 'true',
+            recordIP: '{{ site.valine.recordIP }}',
+            enableQQ: '{{ site.valine.enableQQ }}',
+            avatar: '{{ site.valine.avatar }}',
+            avatar_cdn: '{{ site.valine.avatar_cdn }}',
         })
     </script>
